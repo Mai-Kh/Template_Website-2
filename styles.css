@@ -1,9 +1,35 @@
 body {
   font-family: "Helvetica", sans-serif;
 }
+h2 { color: #0d345b; }
+h1 { color: #0d345b; }
+h3 { color: #0d345b; }
+h4 { color: #0d345b;}
+P { color: #585858;}
+B { color: #0d345b;}
+div.header-wrapper.clear {background-color:#ffffff;
+}
+nav.primary-navigation {background-color:#0d345b;
+color: #ffffff;}
+.milestone-header {background-color:#0d345b}
+/* unvisited link */
+a:link {
+    color: #3c81f8;
+}
 
-h1, h2 {
-  color: #7A0019;
+/* visited link */
+a:visited {
+    color: #0d345b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f38c00;
+}
+
+/* selected link */
+a:active {
+    color: #0d345b;
 }
 
 #contact {
