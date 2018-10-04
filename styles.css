@@ -1,28 +1,38 @@
 body {
   font-family: "Helvetica", sans-serif;
 }
-h2 { color: #0d345b; }
-h1 { color: #0d345b; }
-h3 { color: #0d345b; }
-h4 { color: #0d345b;}
-P { color: #585858;}
-B { color: #0d345b;}
-div.header-wrapper.clear {background-color:#ffffff;
-}
-nav.primary-navigation {background-color:#0d345b;
-color: #ffffff;}
-.milestone-header {background-color:#0d345b}
-/* unvisited link */
-a:link {
-    color: #3c81f8;
+h1 {
+  color:#f38c00;
 }
 
-/* visited link */
-a:visited {
-    color: #0d345b;
+h2 {
+  color: #0d345b;
 }
 
-/* mouse over link */
-a:hover {
-    color: #f38c00;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15306d;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #f38c00;
+}
+
+.active {
+    background-color: #FF8C00;
 }
