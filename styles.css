@@ -26,13 +26,3 @@ a:visited {
 a:hover {
     color: #f38c00;
 }
-
-/* selected link */
-a:active {
-    color: #0d345b;
-}
-
-#contact {
-  background-color: #FFDE7A;
-  padding: 2%;
-}
