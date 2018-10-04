@@ -2,34 +2,6 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-h2 { color: #0d345b; }
-h1 { color: #0d345b; }
-h3 { color: #0d345b; }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #15306d;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #f38c00;
-}
-
-=======
 h1 {
   color:#f38c00;
 }
