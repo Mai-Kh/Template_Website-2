@@ -1,16 +1,60 @@
 <!doctype html>
 <head>
-  <title>Page title</title>
+  <title>Registration</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <h1>UMACRAO</h1>
-    <ul>
-      <li><a class="active" href="./index.html">Home</a></li>
-      <li><a href="./conference.html">Conference</a></li>
-      <li><a href="./membership.html">Membership</a></li>
-      <li><a href="./about.html">About</a></li>
-    </ul>
+  <div class="topnav" id="myTopnav">
+    <a href="./index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Annual Conference
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./registration.html">Registration</a>
+        <a href="./program-guide-and-events.html">Program Guide and Events</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Membership
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./join-or-renew.html">Join or Renew</a>
+        <a href="#">Member Institutions</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Resources
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./career-opportunities.html">Career Opportunities</a>
+        <a href="https://aacrao.org" target="_blank">AACRAO</a>
+        <a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html" target="_blank">FERPA</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./committees.html">Committees</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
 <h2>Welcome</h2>
 <p>Register
 Submit the registration form to attend our 2018 Annual Conference. We look forward to seeing you there!
