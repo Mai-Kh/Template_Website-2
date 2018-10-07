@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color:#f38c00;
+  color:#f38c44;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0d345b;
 }
 
 .topnav a {
@@ -26,8 +26,8 @@ h2 {
 }
 
 .active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #f38c44;
+  color: orange;
 }
 
 .topnav .icon {
@@ -53,7 +53,7 @@ h2 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #3c81f8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -61,7 +61,7 @@ h2 {
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -69,13 +69,13 @@ h2 {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #3c81f8;
   color: white;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #f38c44;
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -111,4 +111,23 @@ h2 {
     width: 100%;
     text-align: left;
   }
+}
+.btn-group .button {
+    background-color: #0d345b;
+    border: 1px solid #808080;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: #3c81f8;
 }
