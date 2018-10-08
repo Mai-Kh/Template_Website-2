@@ -10,6 +10,27 @@ h2 {
   color: #0d345b;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #0d345b;
@@ -112,6 +133,75 @@ h2 {
     text-align: left;
   }
 }
+
+
+/* Body section  */
+.body-section {
+    float: left;
+    width: 75%;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin:auto;
+    width: 80%;
+}
+.card-button {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  height: 140px;
+  margin:auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.btn-group {
+  width: 40%;
+  margin: auto;
+}
+
 .btn-group .button {
     background-color: #0d345b;
     border: 1px solid #808080;
@@ -130,4 +220,19 @@ h2 {
 }
 .btn-group .button:hover {
     background-color: #3c81f8;
+}
+table {
+    font-family: Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
