@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE program_guide [
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT event (#PCDATA)>
+<!ELEMENT keynote_speaker (#PCDATA)>
+<!ELEMENT meal (#PCDATA|breakfast|lunch|dinner)>
+<!ELEMENT break (#PCDATA)>
+]>
+<program_guide>
+  <day>
+    <date>November 7, 2018</date>
+    <time></time>
+    <location></location>
+    <event> </event>
+    <keynote_speaker> </keynote_speaker>
+    <meal> </meal>
+      <breakfast> </breakfast>
+      <lunch> </lunch>
+      <dinner> </dinner>
+      <break> </break>
+  </day>
+</program_guide>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE career_opportunities (posting+) [
+<!ELEMENT post(#PCDATA)>
+<!ELEMENT post_date (#PCDATA)>
+<!ELEMENT institution (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT job_title (#PCDATA)>
+<!ELEMENT job_description (#PCDATA)>
+<!ELEMENT due_date(#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+]>
+
+
+<career_opportunities>
+  <post>
+    <post_date>September 1, 2018</post_date>
+    <institution>Hamline University</institution>
+    <state>Minnesota</state>
+    <job_title>Records Coordinator</job_title>
+    <job_description>Enter text here</job description>
+    <due_date>October 15, 2018</due_date>
+    <link>Enter external URL here</link>
+  </post>
+</career_opportunities>
